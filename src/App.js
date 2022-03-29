@@ -31,9 +31,9 @@ function App() {
     />
   </header>
   <main>
-    <h1>COMING SOON</h1>
+    <h1>ARE YOU READY?</h1>
     <div className="newsletter">
-      <p>Leave us an email address to be the first to know!</p>
+      <p>Stay tuned for all the upcoming NFT drops. You'll be the first to know!</p>
       {/* Begin Mailchimp Signup Form */}
       <div id="mc_embed_signup">
         <form
@@ -53,7 +53,7 @@ function App() {
                 name="EMAIL"
                 className="requiredemail"
                 id="mce-EMAIL"
-                placeholder="Your email address here"
+                placeholder="Your email address"
               />
             </div>
             <div id="mce-responses" className="clear foot">
