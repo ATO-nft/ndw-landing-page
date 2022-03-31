@@ -4,6 +4,8 @@ import typo from './TypoDeepWire.png';
 import twitter from './twitter.png';
 import insta from './insta.png';
 import discord from './discord.png'
+import loader from './wireLoading.gif';
+// import Image from './style.js'
 
 function App() {
   return (
@@ -31,6 +33,13 @@ function App() {
     />
   </header>
   <main>
+    <img
+      src={loader}
+      alt="loader"
+      width="25%"
+      className="logos"
+
+    />
     <h1>ARE YOU READY?</h1>
     <div className="newsletter">
       <p>Stay tuned for all the upcoming NFT drops. You'll be the first to know!</p>
@@ -49,7 +58,6 @@ function App() {
             <div className="mc-field-group">
               <input
                 type="email"
-                defaultValue=""
                 name="EMAIL"
                 className="requiredemail"
                 id="mce-EMAIL"
@@ -68,8 +76,6 @@ function App() {
                 style={{ display: "none" }}
               />
             </div>{" "}
-            {/* real people should not fill this in and expect good things - do not remove this or risk form
-   bot signups*/}
             <div
               style={{ position: "absolute", left: "-5000px" }}
               aria-hidden="true"
@@ -87,7 +93,7 @@ function App() {
                 <br />
                 <input
                   type="submit"
-                  defaultValue="Subscribe"
+                  value="Get wired"
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   className="button"
