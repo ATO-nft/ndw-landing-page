@@ -36,7 +36,7 @@ function App() {
     <img
       src={loader}
       alt="loader"
-      width="25%"
+      width="16%"
       className="logos"
 
     />
